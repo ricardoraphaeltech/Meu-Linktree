@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #fff;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.background {
+    background: linear-gradient(to bottom, slateblue 0%, #0e0b25 100%);
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+main {
+    width: 500px;
+    margin: 0px auto;
+    padding: 70px 0;
+}
+
+img {
+    width: 150px;
+    border-radius: 75px;
+    margin-bottom: 16px;
+}
+
+.title {
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+
+.bio {
+    font-size: 28px;
+}
+
+p {
+    font-size: 18px;
+    margin: 10px 0 15px;
+}
+
+.links-social {
+    background-color: #fff;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    display: block;
+    color: slateblue;
+    margin: 12px 0;
+    text-decoration: none;
+    border: 2px solid #fff;
+    transition: .3s ease;
+}
+
+.linkedin:hover {
+    color: #fff;
+    background: linear-gradient(to right, #095691 0%, #0d80d8 100%);
+}
+
+.github:hover {
+    color: #fff;
+    background: linear-gradient(to right, #975fff 0%, #673fb1 50%, #721e8b 100%);
+}
+
+.portfolio:hover {
+    color: #fff;
+    background: linear-gradient(to right, #0a8a68 0%, #09b083 100%);
+}
+
+.instagram:hover {
+    color: #fff;
+    background: linear-gradient(to right, #ffb75f 0%, #d42b7f 50%, #5b53ce 100%);
+}
+
+.curriculo:hover {
+    color: #fff;
+    background: linear-gradient(to right, #e35398 0%, #7D4BF8 50%, #1290ff 100%);
+}
+
+.whatsapp:hover {
+    color: #fff;
+    background: linear-gradient(to right, #1adb35 0%, #05bd1e 100%);
+}
+
+footer .copyright {
+    font-size: 16px;
+    margin: 0;
+    padding: 20px 0;
+}
+
+@media screen and (max-width: 560px) {
+    main {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 393px) {
+    main {
+        padding: 30px 0;
+    }
+}
+
+@media screen and (max-width: 1180px) and (orientation: landscape) {
+    main {
+        padding: 35px 0;
+    }
+}
